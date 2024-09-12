@@ -4,6 +4,8 @@
 import { useEffect, useRef } from 'react'
 import type { CSSProperties } from 'react'
 
+import Image from 'next/image'
+
 // Third-party Imports
 import styled from '@emotion/styled'
 
@@ -41,7 +43,7 @@ const LogoText = styled.span<LogoTextProps>`
   ${({ isHovered, isCollapsed, isBreakpointReached }) =>
     !isBreakpointReached && isCollapsed && !isHovered
       ? 'opacity: 0; margin-inline-start: 0;'
-      : 'opacity: 1; margin-inline-start: 10px;'}
+      : 'opacity: 1; margin-inline-start: 0px;'}
 `
 
 const Logo = ({ color }: { color?: CSSProperties['color'] }) => {
@@ -72,7 +74,8 @@ const Logo = ({ color }: { color?: CSSProperties['color'] }) => {
 
   return (
     <div className='flex items-center min-bs-[24px]'>
-      <MaterioLogo className='text-[22px] text-primary' />
+      {/* <MaterioLogo className='text-[22px] text-primary' /> */}
+      <Image src='/images/logo.png' alt='Logo' width={22} height={23} className='text-primary' />
       <LogoText
         color={color}
         ref={logoTextRef}

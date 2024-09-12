@@ -95,7 +95,7 @@ const RegisterV2 = ({ mode }: { mode: Mode }) => {
 
         <div className='flex flex-col gap-5 is-full sm:is-auto md:is-full sm:max-is-[400px] md:max-is-[unset]'>
           <div>
-            <Typography variant='h4'>Adventure starts here 🚀</Typography>
+            <Typography variant='h4'>Learning starts here</Typography>
             <Typography className='mbe-1'>Make your app management easy and fun!</Typography>
           </div>
           <form noValidate autoComplete='off' onSubmit={e => e.preventDefault()} className='flex flex-col gap-5'>
@@ -142,7 +142,7 @@ const RegisterV2 = ({ mode }: { mode: Mode }) => {
                 Sign in instead
               </Typography>
             </div>
-            <Divider className='gap-3'>or</Divider>
+            {/* <Divider className='gap-3'>or</Divider>
             <div className='flex justify-center items-center gap-2'>
               <IconButton size='small'>
                 <i className='ri-facebook-fill text-facebook' />
@@ -156,7 +156,7 @@ const RegisterV2 = ({ mode }: { mode: Mode }) => {
               <IconButton size='small'>
                 <i className='ri-google-fill text-googlePlus' />
               </IconButton>
-            </div>
+            </div> */}
           </form>
         </div>
       </div>
