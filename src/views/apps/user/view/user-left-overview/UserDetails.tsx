@@ -18,10 +18,10 @@ import CustomAvatar from '@core/components/mui/Avatar'
 
 // Vars
 const userData = {
-  firstName: 'Seth',
-  lastName: 'Hallam',
-  userName: '@shallamb',
-  billingEmail: 'shallamb@gmail.com',
+  firstName: 'Nouman',
+  lastName: 'Riyaz',
+  userName: '@NoumanRiyaz',
+  billingEmail: 'admin@sigmasquareai.com',
   status: 'active',
   role: 'Subscriber',
   taxId: 'Tax-8894',

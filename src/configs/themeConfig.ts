@@ -54,7 +54,7 @@ export type Config = {
 }
 
 const themeConfig: Config = {
-  templateName: 'Veridex',
+  templateName: 'eridex',
   homePageUrl: '/dashboards/academy',
   settingsCookieName: 'Veridex demo-v1',
   mode: 'light', // 'system', 'light', 'dark'

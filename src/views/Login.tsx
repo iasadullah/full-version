@@ -15,7 +15,6 @@ import InputAdornment from '@mui/material/InputAdornment'
 import Checkbox from '@mui/material/Checkbox'
 import Button from '@mui/material/Button'
 import FormControlLabel from '@mui/material/FormControlLabel'
-import Typed from 'react-typed'
 
 // Third-party Imports
 import { signIn } from 'next-auth/react'
@@ -72,6 +71,7 @@ const Login = ({ mode }: { mode: Mode }) => {
   const borderedDarkIllustration = '/images/illustrations/auth/v2-login-dark-border.png'
   const borderedLightIllustration = '/images/illustrations/auth/v2-login-light-border.png'
   const checkImage = 'images/apps/academy/5.png'
+
   // Hooks
   const router = useRouter()
   const searchParams = useSearchParams()
