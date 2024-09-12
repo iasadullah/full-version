@@ -35,12 +35,7 @@ const shortcuts: ShortcutsType[] = [
     title: 'Calendar',
     subtitle: 'Appointments'
   },
-  // {
-  //   url: '/apps/invoice/list',
-  //   icon: 'ri-file-list-3-line',
-  //   title: 'Invoice App',
-  //   subtitle: 'Manage Accounts'
-  // },
+
   {
     url: '/apps/user/list',
     icon: 'ri-user-3-line',
@@ -53,12 +48,7 @@ const shortcuts: ShortcutsType[] = [
     title: 'Role Management',
     subtitle: 'Permissions'
   },
-  // {
-  //   url: '/dashboards/crm',
-  //   icon: 'ri-pie-chart-2-line',
-  //   title: 'Dashboard',
-  //   subtitle: 'User Dashboard'
-  // },
+
   {
     url: '/pages/account-settings',
     icon: 'ri-settings-4-line',
