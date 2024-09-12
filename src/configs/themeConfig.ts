@@ -54,10 +54,10 @@ export type Config = {
 }
 
 const themeConfig: Config = {
-  templateName: 'Materio',
-  homePageUrl: '/dashboards/crm',
-  settingsCookieName: 'materio-mui-next-demo-1',
-  mode: 'system', // 'system', 'light', 'dark'
+  templateName: 'Veridex',
+  homePageUrl: '/dashboards/academy',
+  settingsCookieName: 'Veridex demo-v1',
+  mode: 'light', // 'system', 'light', 'dark'
   skin: 'default', // 'default', 'bordered'
   semiDark: false, // true, false
   layout: 'vertical', // 'vertical', 'collapsed', 'horizontal'

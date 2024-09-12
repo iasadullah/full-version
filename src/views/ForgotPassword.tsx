@@ -81,7 +81,7 @@ const ForgotPasswordV2 = ({ mode }: { mode: Mode }) => {
         </Link>
         <div className='flex flex-col gap-5 is-full sm:is-auto md:is-full sm:max-is-[400px] md:max-is-[unset]'>
           <div>
-            <Typography variant='h4'>Forgot Password 🔒</Typography>
+            <Typography variant='h4'>Forgot Password </Typography>
             <Typography className='mbs-1'>
               Enter your email and we&#39;ll send you instructions to reset your password
             </Typography>
